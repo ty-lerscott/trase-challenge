@@ -48,6 +48,9 @@ function Index() {
           {isAscending ? 'Ascending' : 'Descending'}
         </button>
       </div>
+      <p className={css`
+        padding: 0rem 1rem;
+      `}>Products: {filteredProducts ? filteredProducts.length : 0}</p>
       <div className={css`
         display: grid;
         grid-template-columns: repeat(3, minmax(200px, 1fr));
