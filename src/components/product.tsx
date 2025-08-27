@@ -44,7 +44,7 @@ const Product = ({ product }: { product: ProductType }) => {
               font-size: 0.75rem;
               font-weight: bold;
               color: var(--color-primary);
-            `}>${product.price}</p>
+            `}>{`$${product.price}`}</p>
         </div>
     )
 }
