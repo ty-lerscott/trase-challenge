@@ -16,3 +16,7 @@ run `npm i` to install all dependencies and then `npm run dev` which should crea
 ### Preview
 
 To view the application in preview mode run these two commands: `npm run build && npm run preview` and follow the url displayed in the terminal
+
+### Public repository and website
+- The code can also be viewed at this repository: https://github.com/ty-lerscott/trase-challenge
+- The public facing UI for this challenge can be viewed at: https://ty-lerscott.github.io/trase-challenge/
